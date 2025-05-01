@@ -85,7 +85,7 @@ function App() {
   return (
     <div className="container">
       <h2 style={{background:'red', color:"white", padding: '20px'}}>COUNT : {count}</h2>
-      <button onClick={() => setCount(count+1)}>+</button>
+      <button onClick={() => setCount(count+1)} style={{padding: "10px", borderRadius: '8px', background:'black', color:'white'}}>+</button>
       <button onClick={decrement}>-</button>
        <div className="users">
          {
